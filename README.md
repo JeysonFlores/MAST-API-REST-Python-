@@ -3,7 +3,9 @@
 API Rest for a MAnager System Template (MAST) 
 
 # Documentation 
- - Routes
+ # Routes
+  - /login
+  - /employees
 
 # Python Dependences
 -  aniso8601==8.0.0
