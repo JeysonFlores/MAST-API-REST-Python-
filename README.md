@@ -4,8 +4,7 @@ API Rest for a MAnager System Template (MAST)
 
 # Documentation 
  # Routes
-  - /login
-  - /employees
+  - [GET] /employees           Return all the employees on the database
 
 # Python Dependences
 -  aniso8601==8.0.0
