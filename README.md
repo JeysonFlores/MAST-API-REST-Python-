@@ -2,6 +2,9 @@
 
 API Rest for a MAnager System Template (MAST) 
 
+![Screenshot](https://github.com/JeysonFlores/MAST-API-Rest/resources/MAST_Logo.png)
+
+
 # Documentation 
  <h2> Routes </h2>
   - [GET] /employees  ----------------------   Return all the employees on the database
