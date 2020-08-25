@@ -2,7 +2,7 @@
 
 API Rest for a MAnager System Template (MAST) 
 
-![Screenshot](https://github.com/JeysonFlores/MAST-API-Rest/resources/MAST_Logo.png)
+![Screenshot](https://github.com/JeysonFlores/MAST-API-Rest/tree/master/resources/MAST_Logo.png)
 
 
 # Documentation 
