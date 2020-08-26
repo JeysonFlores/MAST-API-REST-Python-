@@ -13,7 +13,15 @@
   - [TOKEN_REQUIRED][GET] /employees/_id_ ----------------   Return the specified employee's information
   - [TOKEN_REQUIRED][POST] /employees --------------------   Send a JSON object with the employee's information to save
   - [TOKEN_REQUIRED][PUT] /employees/_id_ -----------------  Send a JSON object with the specified employee's information to update
-
+  - [TOKEN_REQUIRED][GET] /clients  --------------------   Return all the clients on the database
+  - [TOKEN_REQUIRED][GET] /clients/_id_ ----------------   Return the specified client's information
+  - [TOKEN_REQUIRED][POST] /clients --------------------   Send a JSON object with the client's information to save
+  - [TOKEN_REQUIRED][PUT] /clients/_id_ -----------------  Send a JSON object with the specified client's information to update
+  - [TOKEN_REQUIRED][GET] /products  --------------------   Return all the products on the database
+  - [TOKEN_REQUIRED][GET] /products/_id_ ----------------   Return the specified product's information
+  - [TOKEN_REQUIRED][POST] /products --------------------   Send a JSON object with the product's information to save
+  - [TOKEN_REQUIRED][PUT] /products/_id_ -----------------  Send a JSON object with the specified product's information to update
+ 
 # Python Dependences
 -  Flask==1.1.2
 -  Flask-Jsonpify==1.5.0
