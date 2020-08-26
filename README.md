@@ -29,6 +29,10 @@
   -  404 Not Found
   -  405 Method Not Allowed
   
+<h3> Security </h3>
+
+  - Python's JSON Web Tokens Implementation
+  
 <h3> Resources </h3>
 
   - MariaDB - MySQL Server
