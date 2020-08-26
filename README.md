@@ -6,9 +6,9 @@
 # Documentation 
  <h3> Routes </h3>
   
-  |Token Required | Method | Route |
-  | ----- | ----- | ----- |
-  |uwu|uwu|uwu|uwu|
+  |Token Required | Method | Route | Description |
+  | ----- | ----- | ----- | ---------|
+  |x|POST|/signup|Send a JSON object with the new user information|
   
   - [POST] /signup ---------------- Send a JSON object with the new user information
   - [GET] /login ---------------------------   Send a JSON object with user & password and returns the sesssion token
