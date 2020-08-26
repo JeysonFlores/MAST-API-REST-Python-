@@ -38,6 +38,7 @@
 
   - MariaDB - MySQL Server
   - WSGI Deploy Server
+  - SQLAlchemy ORM
   
 # Python Dependences
 -  flask
