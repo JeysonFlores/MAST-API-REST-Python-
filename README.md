@@ -23,8 +23,8 @@
   - [TOKEN_REQUIRED][PUT] /products/_id_ -------  Send a JSON object with the specified product's information to update
  
  <h3> Error Handlers </h3>
-  - [TOKEN_REQUIRED][GET] /clients  --------------------   Return all the clients on the database
-    400 Bad Request
+ 
+  -  400 Bad Request
   -  403 Forbidden
   -  404 Not Found
   -  405 Method Not Allowed
