@@ -12,10 +12,10 @@
   |uwu|GET|/login|Send a JSON object with user & password and returns the sesssion token|
   |✔|GET|/about|Return all the API's development information|
   |✔|GET|/stats|Return the on-run API's stats|
-  |✔|GET|uwu|uwu|
-  |✔|GET|uwu|uwu|
-  |✔|uwu|uwu|uwu|
-  |✔|uwu|uwu|uwu|
+  |✔|GET|/employees|Return all the employees on the database|
+  |✔|GET|/employees/**id**|Return the specified employee's information|
+  |✔|POST|/employees|Send a JSON object with the employee's information to save|
+  |✔|PUT|/employees/**id**|Send a JSON object with the specified employee's information to update|
   
   - [POST] /signup ---------------- Send a JSON object with the new user information
   - [GET] /login ---------------------------   Send a JSON object with user & password and returns the sesssion token
