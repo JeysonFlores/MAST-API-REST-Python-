@@ -8,7 +8,14 @@
   
   |Token Required | Method | Route | Description |
   | ----- | ----- | ----- | ---------|
-  |x|POST|/signup|Send a JSON object with the new user information|
+  |✔|POST|/signup|Send a JSON object with the new user information|
+  |uwu|GET|/login|Send a JSON object with user & password and returns the sesssion token|
+  |✔|GET|/about|Return all the API's development information|
+  |✔|GET|/stats|Return the on-run API's stats|
+  |✔|GET|uwu|uwu|
+  |✔|GET|uwu|uwu|
+  |✔|uwu|uwu|uwu|
+  |✔|uwu|uwu|uwu|
   
   - [POST] /signup ---------------- Send a JSON object with the new user information
   - [GET] /login ---------------------------   Send a JSON object with user & password and returns the sesssion token
