@@ -16,6 +16,15 @@
   |✔|GET|/employees/**id**|Return the specified employee's information|
   |✔|POST|/employees|Send a JSON object with the employee's information to save|
   |✔|PUT|/employees/**id**|Send a JSON object with the specified employee's information to update|
+  |✔|GET|/clients|Return all the clients on the database|
+  |✔|GET|/clients/**id**|Return the specified client's information|
+  |✔|POST|/clients|Send a JSON object with the client's information to save|
+  |✔|PUT|/clients/**id**|Send a JSON object with the specified client's information to update|
+  |✔|GET|/products|Return all the products on the database|
+  |✔|GET|/products/**id**|Return the specified product's information|
+  |✔|POST|/products|Send a JSON object with the product's information to save|
+  |✔|PUT|/products/**id**|Send a JSON object with the specified product's information to update|
+  
   
   - [POST] /signup ---------------- Send a JSON object with the new user information
   - [GET] /login ---------------------------   Send a JSON object with user & password and returns the sesssion token
