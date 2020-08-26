@@ -1,18 +1,30 @@
 from __main__ import db
 
+class Users(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(30))
+    password = db.Column(db.String(20))
+    nickname = db.Column(db.String(20))
+    status = db.Column(db.String(2))
+
+    def __init__(self,name,password,nickname):
+        self.name = name
+        self.password = password
+        self.nickname = nickname
+        self.status = 'A'
+
+
 class Employees(db.Model):
     id = db.Column(db.Integer, primary_key=True) 
     name = db.Column(db.String(50))
-    address = db.Column(db.String(60))
     email = db.Column(db.String(50))
     telephone = db.Column(db.Integer())   
     job = db.Column(db.String(15))
     gender = db.Column(db.String(10))
     status = db.Column(db.String(2))
 
-    def __init__(self,name,address,email,telephone,job,gender):
+    def __init__(self,name,email,telephone,job,gender):
         self.name = name
-        self.address = address
         self.email = email
         self.telephone = telephone
         self.job = job
