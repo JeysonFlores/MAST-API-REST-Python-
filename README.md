@@ -29,6 +29,11 @@
   -  404 Not Found
   -  405 Method Not Allowed
   
+<h3> Resources </h3>
+
+  - MariaDB - MySQL Server
+  - WSGI Deploy Server
+  
 # Python Dependences
 -  Flask==1.1.2
 -  Flask-Jsonpify==1.5.0
