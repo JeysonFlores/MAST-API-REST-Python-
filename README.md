@@ -7,12 +7,12 @@
  <h3> Routes </h3>
  
   - [GET] /login ---------------------------   Send a JSON object with user & password and returns the sesssion token
-  - [TOKEN_REQUIRED][GET] /about ---------------------------   Return all the API's development information
-  - [TOKEN_REQUIRED][GET] /stats ---------------------------   Return the on-run API's stats
-  - [TOKEN_REQUIRED][GET] /employees  ----------------------   Return all the employees on the database
-  - [TOKEN_REQUIRED][GET] /employees/<id> ----------------------------------   Return the specified employee's information
-  - [TOKEN_REQUIRED][POST] /employees --------------------------------------   Send a JSON object with the employee's information to save
-  - [TOKEN_REQUIRED][PUT] /employees/<id> ----------------------------------   Send a JSON object with the specified employee's information to update
+  - [TOKEN_REQUIRED][GET] /about -------------------------   Return all the API's development information
+  - [TOKEN_REQUIRED][GET] /stats -------------------------   Return the on-run API's stats
+  - [TOKEN_REQUIRED][GET] /employees  --------------------   Return all the employees on the database
+  - [TOKEN_REQUIRED][GET] /employees/_id_ ----------------   Return the specified employee's information
+  - [TOKEN_REQUIRED][POST] /employees --------------------   Send a JSON object with the employee's information to save
+  - [TOKEN_REQUIRED][PUT] /employees/_id_ -----------------  Send a JSON object with the specified employee's information to update
 
 # Python Dependences
 -  Flask==1.1.2
