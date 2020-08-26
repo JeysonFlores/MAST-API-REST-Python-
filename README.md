@@ -5,7 +5,11 @@
 
 # Documentation 
  <h3> Routes </h3>
- 
+  
+  |Token Required | Method | Route |
+  | ----- | ----- | ----- |
+  |uwu|uwu|uwu|uwu|
+  
   - [POST] /signup ---------------- Send a JSON object with the new user information
   - [GET] /login ---------------------------   Send a JSON object with user & password and returns the sesssion token
   - [TOKEN_REQUIRED][GET] /about -------------------------   Return all the API's development information
