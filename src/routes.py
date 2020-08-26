@@ -30,6 +30,16 @@ def login():
         return jsonify({"token": token.decode('UTF-8')})
     return make_response(jsonify({"error": "1", "message": "Login Failed"}))
 
+@app.route('/about')
+@token_required
+def about():
+    return jsonify({"API": "MAST", "Version": "1.0", "Language": "Python", "Framework": "Flask", "ORM": "SQLAlchemy", "DBM": "MariaDB", "Author": "Jeyson Antonio Flores Deras"})
+
+@app.route('/stats')
+@token_required
+def stats():
+    return jsonify({"active-date": str(app.config['TURN_ON_TIME']), "active-time": str(datetime.datetime.utcnow() - app.config['TURN_ON_TIME'])})
+
 
 @app.route('/employees', methods=['GET'])
 @token_required
