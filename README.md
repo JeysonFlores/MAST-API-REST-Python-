@@ -22,6 +22,12 @@
   - [TOKEN_REQUIRED][POST] /products ----------------   Send a JSON object with the product's information to save
   - [TOKEN_REQUIRED][PUT] /products/_id_ -------  Send a JSON object with the specified product's information to update
  
+ <h3> Error Handlers </h3>
+  - 400 Bad Request
+  - 403 Forbidden
+  - 404 Not Found
+  - 405 Method Not Allowed
+  
 # Python Dependences
 -  Flask==1.1.2
 -  Flask-Jsonpify==1.5.0
