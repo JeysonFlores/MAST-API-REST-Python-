@@ -1,6 +1,6 @@
 # MAST-API-Rest
 
-![Screenshot](https://github.com/JeysonFlores/MAST-API-Rest/blob/master/resources/MAST_Logo.png)
+![Screenshot](https://github.com/JeysonFlores/MAST-API-Rest-Python-/blob/master/resources/MAST_Logo.png)
 
 
 # Documentation 
