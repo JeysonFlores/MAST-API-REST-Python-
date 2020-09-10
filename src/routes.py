@@ -5,6 +5,7 @@ from functools import wraps
 import jwt
 import datetime
 import secrets
+from __main__ import cfg
 
 app.config['SECRET_KEY'] = secrets.token_urlsafe(16)
 
@@ -68,7 +69,7 @@ def login():
 @app.route('/about')
 @token_required
 def about():
-    return jsonify({"API": "MAST", "Version": "1.0", "Language": "Python", "Framework": "Flask", "ORM": "SQLAlchemy", "DBM": "MariaDB", "Author": "Jeyson Antonio Flores Deras"})
+    return jsonify({"API": cfg["app"]["info"]["API"], "Version": cfg["app"]["info"]["Version"], "Language": cfg["app"]["info"]["Language"], "Framework": cfg["app"]["info"]["Framework"], "ORM": cfg["app"]["info"]["ORM"], "DBM": cfg["app"]["info"]["DBM"], "Author": cfg["app"]["info"]["Author"], "Security": cfg["app"]["info"]["Security"]})
 
 @app.route('/stats')
 @token_required

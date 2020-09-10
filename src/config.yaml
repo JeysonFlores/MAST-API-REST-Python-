@@ -1,0 +1,16 @@
+app:
+  info:
+    API: "MAST"
+    Language: "Python 3.x"
+    Version: "1.1"
+    Framework: "Flask"
+    Security: "JWT"
+    ORM: "SQLAlchemy"
+    DBM: "MySQL - MariaDB"
+    Author: "Jeyson Antonio Flores Deras"
+  database:
+    user: "admin"
+    password: "password"
+    host: "localhost"
+    port: "3333"
+    name: "mastdb"

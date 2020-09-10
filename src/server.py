@@ -2,9 +2,15 @@ from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 import datetime
+import yaml
+
+
+with open("./src/config.yaml", "r") as ymlfile:
+        cfg = yaml.load(ymlfile)
+
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:password@localhost/mastdb'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://'+cfg["app"]["database"]["user"]+':'+cfg["app"]["database"]["password"]+'@'+cfg["app"]["database"]["host"]+'/'+cfg["app"]["database"]["name"]
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['TURN_ON_TIME'] = datetime.datetime.utcnow()
 
