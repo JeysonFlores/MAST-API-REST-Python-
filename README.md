@@ -50,3 +50,4 @@
 -  marshmallow-sqlalchemy
 -  pyjwt
 -  pymysql
+-  pyyaml
