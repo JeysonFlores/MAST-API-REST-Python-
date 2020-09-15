@@ -9,7 +9,7 @@
   |Token Required | Method | Route | Description |
   | ----- | ----- | ----- | ---------|
   |✘|POST|/signup|Send a JSON object with the new user information|
-  |✘|GET|/login|Send a JSON object with user & password and returns the sesssion token|
+  |✘|GET|/login|Send a JSON object with user & password and returns the session token|
   |✔|GET|/about|Return all the API's development information|
   |✔|GET|/stats|Return the on-run API's stats|
   |✔|GET|/employees|Return all the employees on the database|
